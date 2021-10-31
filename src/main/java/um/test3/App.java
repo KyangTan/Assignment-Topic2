@@ -31,6 +31,7 @@ public class App extends Application {
                 new PieChart.Data("April", 2700),
                 new PieChart.Data("May",3200 ),
                 new PieChart.Data("Jun",800 ));
+                new PieChart.Data("July",9999 ));
              final PieChart chart = new PieChart(pieChartData);
         chart.setTitle("Total Sales of Product A Year 2016");
 
